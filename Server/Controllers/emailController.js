@@ -1,5 +1,5 @@
 var nodemailer = require('nodemailer');
-var config = require('../Keys/email_config')
+var config = require('../Config/email_config')
 
 var transporter = nodemailer.createTransport('smtps://'+config.email+'%40gmail.com:'+config.password+';@smtp.gmail.com');
 

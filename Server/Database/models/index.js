@@ -3,7 +3,7 @@
 var fs        = require("fs");
 var path      = require("path");
 var Sequelize = require("sequelize");
-var config = require('../../Keys/db_config');
+var config = require('../../Config/db_config');
 
 var sequelize = new Sequelize(config.database, config.username, config.password, {
     host: config.host,

@@ -1,5 +1,5 @@
 var jwt = require('jwt-simple');
-var secret = require('../Keys/apiKey');
+var secret = require('../Config/apiKey');
 var UserMethods = require('../Controllers/userController.js');
 
 

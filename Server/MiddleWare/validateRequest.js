@@ -1,6 +1,6 @@
 var jwt = require('jwt-simple');
 var validateUser = require('../MiddleWare/auth').validateUser;
-var secret = require('../Keys/apiKey');
+var secret = require('../Config/apiKey');
 module.exports = function(req, res, next) {
   // When performing a cross domain request, you will recieve
   // a preflighted request first. This is to check if our the app

@@ -35,5 +35,4 @@ router.get('/api/v1/users', UserMethods.getAllUsers);
 router.post('/api/email/forgotPassword', EmailMethods.sendForgotPasswordEmail);
 
 
-
 module.exports = router;
