@@ -1,0 +1,39 @@
+{
+  "name": "MichaelsWebsite",
+  "version": "1.0.0",
+  "description": "learning javascript/html/css/sql",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelt1128/MyWebsite.git"
+  },
+  "author": "Michael Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelt1128/MyWebsite/issues"
+  },
+  "homepage": "https://github.com/michaelt1128/MyWebsite#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.5.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "node-fetch": "^1.6.0",
+    "nodemon": "^1.10.2",
+    "pg": "^4.5.1",
+    "pg-config": "0.0.1",
+    "pg-native": "^1.10.0",
+    "request": "^2.79.0",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "nodemailer": "^2.7.0",
+    "nodemon": "^1.10.2"
+  }
+}
