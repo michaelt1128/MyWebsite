@@ -1,0 +1,10 @@
+.home-view-container {
+	display: flex;
+	flex-direction: column;
+
+	.pencil-pusher-link {
+		flex: 1;
+		margin: auto;
+		justify-content: center;
+	}
+}

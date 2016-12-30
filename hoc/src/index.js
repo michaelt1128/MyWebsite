@@ -8,6 +8,8 @@ import thunk from 'redux-thunk';
 
 import App from './components/app';
 import Home from './components/Home';
+import PencilPusher from './components/PencilPusher';
+
 import reducers from './reducers';
 
 
@@ -18,6 +20,7 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route path="/" component={Home} />
+      <Route path="/pencilPusher" component={PencilPusher} />
     </Router>
   </Provider>
   , document.querySelector('.app-container'));

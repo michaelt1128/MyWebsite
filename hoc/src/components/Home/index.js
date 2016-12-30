@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter, Link } from 'react-router';
 import * as actions from '../../actions';
-import GameButton from './gameButton';
+import Header from '../Header';
 
 import './style.scss';
 
@@ -13,11 +13,19 @@ class Home extends Component {
 		}
 	}
 
+	gotoPencilPusher(e) {
+		e.preventDefault();
+	}
+
 	render() {
 		return (
 			<div className='home-view-container'>
+				<Header>
 				What would you like to do?
-				<GameButton />
+				</Header>
+				<div className='pencil-pusher-link'>
+					<Link to='pencilPusher'>Pencil Pusher</Link>
+				</div>
 			</div>
 		);
 	}
