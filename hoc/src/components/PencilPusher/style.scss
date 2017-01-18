@@ -1,18 +1,35 @@
 .pencil-pusher-view-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	height: 100%;
 
-	.score-display {
+	.score-container {
+		display: flex;
+		flex-direction: column;
 		flex: 1;
-		justify-content: center;
-		align-items: center;
 		margin: auto;
-		max-width: 50%
+
+		.score-display {
+			flex: 1;
+			margin: auto;
+		}
+	}
+
+	.upgrade-container {
+		display: flex;
+		flex-direction: column;
+		flex: 3;
+
 	}
 }
 
 .game-button {
+	flex: 3;
+	justify-content: center;
+	margin: auto;
+}
+
+.upgrade-item-container {
 	flex: 3;
 	justify-content: center;
 	margin: auto;

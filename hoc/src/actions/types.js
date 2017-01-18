@@ -8,3 +8,6 @@ export const SET_ACCOUNT_ERROR = 'SET_ACCOUNT_ERROR';
 export const SET_ACCOUNT_LIST = 'SET_ACCOUNT_LIST';
 
 export const SCORE = 'SCORE';
+export const UPGRADE = 'UPGRADE';
+export const SCORE_MULTIPLIER = 'SCORE_MULTIPLIER';
+export const TIME_INTERVAL = 'TIME_INTERVAL';

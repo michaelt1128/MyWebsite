@@ -17,6 +17,7 @@ class GameButton extends Component {
 		this.setState({disabled: true});
 		this.props.setScore(this.props.pencilGame.score + 1);
 		setTimeout(function() { this.setState({disabled: false}) }.bind(this), 1000);
+		console.log(this.props.pencilGame);
 	}
 	
 	render() {
